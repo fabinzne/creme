@@ -1,0 +1,110 @@
+.recipe-form {
+  display: grid;
+  padding: 16px;
+}
+
+#section {
+  color: slateblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-type {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid slateblue;
+  box-sizing: border-box;
+  color: slateblue;
+  transition: 0.3s;
+  outline: none;
+  text-indent: 10px;
+  margin-bottom: 8px;
+}
+
+.input-type::placeholder {
+  color: slateblue;
+}
+
+.input-type:focus {
+  border: 1px solid #5a4cb3;
+}
+
+.recipe-form-hero-preview {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 8px;
+}
+
+.img-space {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.recipe-form-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.text-description {
+  width: 60%;
+  height: 348px;
+}
+
+button {
+  background-color: slateblue;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  margin: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #5a4cb3;
+}
+
+.add-button {
+  width: 50px;
+  height: 40px;
+  font-size: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .input-type {
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.finish-button {
+  width: 60%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.go-back-button {
+  width: 10%;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}

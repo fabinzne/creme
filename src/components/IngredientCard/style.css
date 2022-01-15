@@ -1,0 +1,17 @@
+.img-card {
+  width: 100%;
+}
+
+.ingredient-root {
+  border-radius: 5px;
+  border: 1px solid slateblue;
+  margin: 8px;
+}
+
+#information-section {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+}

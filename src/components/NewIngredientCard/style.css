@@ -1,0 +1,16 @@
+label {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: slateblue;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
